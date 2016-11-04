@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFullName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+      android:hint="Enter FullName"
+        android:textColorHint="#FF4081"
+        android:layout_toRightOf="@+id/tvfullName"
+        android:layout_toEndOf="@+id/tvfullName"
+        android:layout_alignBottom="@+id/tvfullName"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email address"
+        android:textColorHint="#FF4081"
+        android:id="@+id/etEmail"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:hint="Password"
+        android:textColorHint="#FF4081"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:password="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRepeatPassword"
+        android:hint="Repeat Password"
+        android:textColorHint="#FF4081"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:password="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMobileNumber"
+        android:inputType="number"
+        android:hint="Mobile Number"
+        android:textColorHint="#FF4081"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of birth"
+        android:textColor="#FF4081"
+        android:textSize="18dp"
+        android:id="@+id/tvDateofbirth"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/etDate"
+        android:hint="dd/mm/yyyy"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textColor="#FF4081"
+        android:textSize="20dp"
+        android:id="@+id/tvGender"
+        android:layout_weight="0.07" />
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgGender">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#FF4081"
+            android:id="@+id/rbMale"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#FF4081"
+            android:id="@+id/rbFemale"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textColor="#FF4081"
+            android:id="@+id/rbOthers"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btSubmit" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
+    </ScrollView>

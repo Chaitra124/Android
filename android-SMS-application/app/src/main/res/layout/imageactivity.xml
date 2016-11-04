@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivImages"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/images"
+        android:layout_weight="0.52" />
+
+    <Button
+         android:background="@drawable/buttonblue1"
+        android:layout_width="254dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_height="49dp"
+        android:text="MOVE"
+        android:id="@+id/btMove"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:background="@drawable/buttonblue1"
+        android:layout_width="254dp"
+        android:layout_height="49dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:text="ALPHA"
+        android:id="@+id/btAlpha"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:background="@drawable/buttonblue1"
+        android:layout_width="254dp"
+        android:layout_height="49dp"
+        android:text="ROTATE"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:id="@+id/btRotate"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:background="@drawable/buttonblue1"
+        android:layout_width="254dp"
+        android:layout_height="49dp"
+        android:text="SHAKE"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:id="@+id/btShake"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:background="@drawable/buttonblue1"
+        android:layout_width="254dp"
+        android:layout_height="49dp"
+        android:text="ALL"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:id="@+id/btAll"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

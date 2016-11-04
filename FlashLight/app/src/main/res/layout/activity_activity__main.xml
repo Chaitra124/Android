@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="project3.com.flashlight.Activity_Main">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLASH LIGHT"
+        android:textSize="38dp"
+        android:scaleType="fitCenter"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginTop="51dp"
+        android:textStyle="italic"
+        android:id="@+id/textViewMessage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/off"
+        android:scaleType="fitCenter"
+        android:background="@color/colorBackground"
+        android:id="@+id/imageButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
